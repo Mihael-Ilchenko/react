@@ -1,0 +1,17 @@
+.portfolio {
+    width: 100%;
+}
+
+.list-btns {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.list-btns__item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.list-btns__btn {
+    padding: 15px 30px;
+}
